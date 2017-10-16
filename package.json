@@ -1,0 +1,20 @@
+{
+    "name": "iswitch-core",
+    "version": "0.1.0",
+    "description": "一个实现Switch功能的Web组件，支持原生JavaScript及jQuery、Vue、React、Angular等框架。",
+    "main": "lib/core.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/imingyu/iswitch.git"
+    },
+    "author": "imingyu<mingyuhisoft@163.com>",
+    "license": "BSD-3-Clause",
+    "bugs": {
+        "url": "https://github.com/imingyu/iswitch/issues"
+    },
+    "homepage": "https://github.com/imingyu/iswitch#readme"
+}
