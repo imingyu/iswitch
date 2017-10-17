@@ -80,12 +80,12 @@ npm i -S iswitch-angular
 | static | 组件以静态方式渲染 | boolean | false |
 | delay | 滑动动画delay时间，单位毫秒 | number | 300 |
 | beforeChange | 开关切换前执行的函数，可返回一个`Promise`对象，或者返回一个`boolean`类型的值；当返回值是`true`或者返回的`Promise`resolve时，才会执行切换，否则不执行切换 | function | |
-| onText | 打开状态下显示的文字 | string | ON |
+| onText | 打开状态下显示的文字 | string |  |
 | onValue | 打开状态对应的值 | any | true |
-| onColor | 打开状态开关颜色 | string | green |
-| offText | 关闭状态下显示的文字 | string | OFF |
+| onColor | 打开状态开关颜色 | string | #64bd63 |
+| offText | 关闭状态下显示的文字 | string |  |
 | offValue | 关闭状态对应的值 | any | false |
-| offColor | 关闭状态开关颜色 | string | red |
+| offColor | 关闭状态开关颜色 | string | #fdfdfd |
 
 ### Methods
 switchOn,switchOff,switchToggle,destroy
